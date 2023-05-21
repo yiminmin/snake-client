@@ -17,7 +17,17 @@ const connect = function () {
 
   conn.on("connect", () => {
   console.log("Successfully connected to game server");
-  conn.write("Name: LIU");  // Replace "ABC" with your initials
+  conn.write("Name: LIU");
+   // Experiment with delayed move messages
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // }, 50);
+
+    // Experiment with continuous move commands
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // }, 50);
+
   });
 
   return conn;
