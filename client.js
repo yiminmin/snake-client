@@ -16,8 +16,8 @@ const connect = function () {
   });
 
   conn.on("connect", () => {
-  console.log("Successfully connected to game server");
-  conn.write("Name: LIU");
+    console.log("Successfully connected to game server");
+    conn.write("Name: LIU");
    // Experiment with delayed move messages
     // setTimeout(() => {
     //   conn.write("Move: up");
@@ -33,8 +33,8 @@ const connect = function () {
   return conn;
 };
 
-console.log("Connecting ...");
-connect();
+// console.log("Connecting ...");
+// connect();
 
 
 module.exports = { connect };
