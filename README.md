@@ -1,6 +1,5 @@
 # Snake Client
 
-![Snake Game Screenshot](snake-screenshot.png)
 
 Snake Client is a client-side component of the Snake game. It establishes a connection with the game server and provides user input functionality for controlling the snake in the game.
 
